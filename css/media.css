@@ -1,0 +1,104 @@
+@media (max-width: 1200px) {
+.container {
+  max-width: 960px;
+}  
+}
+
+
+@media (max-width: 992px) {
+.container {
+  max-width: 720px;
+}  
+.nav__burger {
+  display: block;
+}
+.nav__burger:focus ~ .menu {
+  visibility: visible;
+}
+.menu {
+  position: absolute;
+  top: 85px;
+  right: 80px;
+  background: rgba(0, 0, 0, 0.8);
+  flex-direction: column;
+  max-width: 200px;
+  width: 100%;
+  visibility: hidden;
+}
+.menu__link {
+  padding: 20px 66px;
+}
+}
+
+
+@media (max-width: 760px) {
+.container {
+  max-width: 540px;
+}  
+.nav__burger {
+  display: block;
+}
+.nav__burger:focus ~ .menu {
+  visibility: visible;
+}
+.menu {
+  position: absolute;
+  top: 85px;
+  right: 70px;
+  background: rgba(0, 0, 0, 0.8);
+  flex-direction: column;
+  max-width: 200px;
+  width: 100%;
+  visibility: hidden;
+}
+.menu__link {
+  padding: 20px 66px;
+}
+.header__title {
+  font-size: 50px;
+}
+.header__title2 {
+  font-size: 30px;
+}
+.header__desc {
+  font-size: 16px;
+}
+.pricelink {
+  display: flex;
+  flex-direction: column;
+}
+.price {
+  margin-bottom: 20px;
+}
+.bugerlist__link {
+  font-size: 14px;
+}
+.burger {
+  grid-template-columns: repeat(2, 1fr);
+}
+.burger__desc {
+  font-size: 16px;
+}
+.branch__title {
+  font-size: 40px;
+}
+.tel {
+  font-size: 18px;
+}
+.back__link {
+  font-size: 18px;
+}
+.proweb__title {
+  font-size: 14px;
+}
+.firstmenu__link {
+  font-size: 14px;
+}
+.main2__title {
+  font-size: 40px;
+}
+.main2__desc {
+  font-size: 16px;
+}
+}
+
